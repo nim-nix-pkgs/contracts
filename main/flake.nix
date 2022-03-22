@@ -1,5 +1,5 @@
 {
-  description = ''Design by Contract (DbC) library with minimal runtime.'';
+  description = ''Design by contract (DbC) library.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-contracts-main.flake = false;
   inputs.src-contracts-main.owner = "Udiknedormin";
-  inputs.src-contracts-main.ref   = "refs/heads/main";
+  inputs.src-contracts-main.ref   = "main";
   inputs.src-contracts-main.repo  = "NimContracts";
   inputs.src-contracts-main.type  = "github";
   
