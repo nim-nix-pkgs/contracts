@@ -11,7 +11,6 @@
   inputs.src-contracts-main.ref   = "refs/heads/main";
   inputs.src-contracts-main.owner = "Udiknedormin";
   inputs.src-contracts-main.repo  = "NimContracts";
-  inputs.src-contracts-main.dir   = "";
   inputs.src-contracts-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
