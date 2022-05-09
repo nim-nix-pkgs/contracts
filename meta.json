@@ -7,8 +7,45 @@
   "license": "MIT",
   "web": "https://github.com/Udiknedormin/NimContracts",
   "refs": [
-    "fatal: expected flush after ref listing",
+    "refs/heads/add_github_actions",
+    "refs/heads/issue_8/remove_NimIdent_and_excl_op",
+    "refs/heads/main",
+    "refs/heads/modernize-step",
+    "refs/heads/more_info_on_contra",
+    "refs/heads/update/modernize",
+    "refs/heads/version_up",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "contracts",
+      "version": "0.2.1",
+      "author": "M. Kotwica",
+      "desc": "Design by contract (DbC) library.",
+      "license": "MIT",
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/main"
+    }
+  ]
 }
